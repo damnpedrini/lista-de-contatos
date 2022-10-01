@@ -1,15 +1,7 @@
 
 
 
-
-<h3 align="center">PROJETOS JAVASCRIPT FRONT END</h3>
-
-
-<!-- ABOUT THE PROJECT -->
-## Sobre 
-
-
-PROJETO LISTA DE CONTATOS JAVASCRIPT, HTML e CSS
+PROJETO LISTA DE CONTATOS 
 
 <!-- CONTACT -->
 ## Contato
