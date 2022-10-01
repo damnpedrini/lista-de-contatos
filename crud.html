@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Easyway</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <body class="logged-in env-production page-responsive session-authentication" style="word-wrap: break-word;">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navBarColor">
+                <a class="navbar-brand" href="#">
+                  <img src="img/sakura.gif.gif" alt="" width="50" height="50" class="d-inline-block align-text-top">
+                </a>
+            <a class="navbar-brand" href="#">Easyway</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./listagem-table.html">Lista de Contatos
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./crud.html">Adicionar Contatos</a>
+                    </li>
+
+                        </div>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="Buscar Contato" placeholder="Buscar Contato" aria-label=" Buscar Contato">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <br>
+                            <!--- Começo Bootstrap --->
+            <div class="col-sm">
+                <h2>Adicionar Contato</h2>
+                <form method="POST" action="/" id="formBoot">
+
+                    <div class="form-group">
+                        <label for="nomeBoot">Nome</label>
+                        <input type="text" class="form-control" value="" id="nomeBoot" name="nomeBoot" placeholder="Informe o nome do seu contato">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="emailBoot">Email</label>
+                        <input type="email" class="form-control" value="" id="emailBoot" nome="emailBoot" placeholder="ex: @dominio.com">
+                    </div>
+                     <div class="form-group">
+                        <label for="ruaBoot">Rua</label>
+                        <input type="rua" class="form-control" value="" id="ruaBoot" nome="ruaBoot" placeholder="endereço">
+                    <br>
+
+                    <div class="form-group">
+                    <label for="estadoBoot">Estado</label>
+                        <select class="custom-select" name="estadoSelectBoot" id="estadoSelectBoot">
+                            <option selected>Selecione um estado</option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+
+                        </select>
+                        </div>
+                    <br>
+
+                    <div class="form-group">
+                        <label for="TelefoneBoot">Telefone</label>
+                        <input type="email" class="form-control" value="" id="telefoneBoot" nome="telefoneBoot" placeholder="ex">
+                    </div>
+                    <br>
+
+                    <div>
+                        <button type="button" onclick="recebeDadosFormBoot(formBoot)" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                    <br>
+                    
+
+                </form>
+            </div>
+    
+            <br>
+    
+        </div>
+    
+    </div>
+    
+    </div>
+    <!--row-->
+    </div><!--container-->
+
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/js.js"></script>
+</footer>
+</body>
+
+</html>
+    
+

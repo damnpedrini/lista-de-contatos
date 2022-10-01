@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Easyway</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <body class="logged-in env-production page-responsive session-authentication" style="word-wrap: break-word;">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navBarColor">
+                <a class="navbar-brand" href="#">
+                  <img src="img/sakura.gif.gif" alt="" width="50" height="50" class="d-inline-block align-text-top">
+                </a>
+            <a class="navbar-brand" href="#">Easyway</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./listagem-table.html">Lista de Contatos
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./crud.html">Adicionar Contatos</a>
+                    </li>
+
+                        </div>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="Buscar Contato" placeholder="Buscar Contato" aria-label=" Buscar Contato">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+
+    <br>
+
+    <div class="container">
+
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover table-sm">
+                <caption>Lista de Contatos</caption>
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Rua</th>
+                        <th>Estado</th>
+                        <th>Telefone</th>
+                        <th>Opções</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-primary">Pedro</td>
+                        <td>Pedro@dominio.com</td>
+                        <td>Rua A</td>
+                        <td class="table-primary">PR</td>
+                        <td class="table-primary">(41) 2214-7117</td>
+                        <td><a class="btn btn-primary" href="./alterar.html">Alterar</a></td>                        
+
+                    </tr>
+                    <tr>
+                        <td class="table-primary">Christian</td>
+                        <td>Christian@dominio.com</td>
+                        <td>Rua A</td>
+                        <td class="table-primary">PR</td>
+                        <td class="table-primary">(44) 3856-7219</td>
+                        <td><a class="btn btn-primary" href="./alterar.html">Alterar</a></td>                        
+                    </tr>
+                    <td class="table-primary">Maria</td>
+                        <td>Maria@dominio.com</td>
+                        <td>Rua A</td>
+                        <td class="table-primary">PR</td>
+                        <td class="table-primary">(41) 2958-2074</td>
+                        <td><button type="button" class="btn btn-primary">Alterar</button></td> 
+
+                    </tr>
+                    <tr>
+                        <td class="table-primary">Pedrini</td>
+                        <td>Pedrini@dominio.com</td>
+                        <td>Rua A</td>
+                        <td class="table-primary">PR</td>
+                        <td class="table-primary">(46) 2618-4768</td>
+                        <td><button type="button" class="btn btn-primary">Alterar</button></td> 
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </form>
+    </div>
+
+    <br>
+
+</div>
+
+</div>
+
+
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/js.js"></script>
+</footer>
+</body>
+
+</html>
